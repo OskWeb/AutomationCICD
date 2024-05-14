@@ -1,0 +1,60 @@
+# Created at 2024-05-11T17:14:16.369
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2024-05-11T17:14:17.360
+Unexpected IOException with stream: may 11, 2024 5:14:17 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 124
+
+
+# Created at 2024-05-11T17:14:19.969
+Unexpected IOException: 5,1,Tests.ErrorValidationsTest,ProductErrorValidation(Tests.ErrorValidationsTest),Tests.ErrorValidationsTest,null,null
+
+
+# Created at 2024-05-11T17:14:20.061
+Unexpected IOException: 8,1,Tests.ErrorValidationsTest,ProductErrorValidation(Tests.ErrorValidationsTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '4.16.1'\002C revision: '9b4c83354e'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [e7b11744a8da2d3b400c10589eeca067\002C findElement {using=id\002C value=userEmail}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d...\002C userDataDir: C:\005CUsers\005COscar\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:10715}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:10715/devtoo...\002C se:cdpVersion: 124.0.6367.119\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: e7b11744a8da2d3b400c10589eeca067,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '4.16.1'\002C revision: '9b4c83354e'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [e7b11744a8da2d3b400c10589eeca067\002C findElement {using=id\002C value=userEmail}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d...\002C userDataDir: C:\005CUsers\005COscar\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:10715}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:10715/devtoo...\002C se:cdpVersion: 124.0.6367.119\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: e7b11744a8da2d3b400c10589eeca067,ErrorValidationsTest.ProductErrorValidation:46 \00BB NoSuchWindow no such window: ...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '4.16.1'\002C revision: '9b4c83354e'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [e7b11744a8da2d3b400c10589eeca067\002C findElement {using=id\002C value=userEmail}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d...\002C userDataDir: C:\005CUsers\005COscar\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:10715}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:10715/devtoo...\002C se:cdpVersion: 124.0.6367.119\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: e7b11744a8da2d3b400c10589eeca067\000A\0009at Tests.ErrorValidationsTest.ProductErrorValidation(ErrorValidationsTest.java:46)\000A
+
+
+# Created at 2024-05-11T17:14:22.227
+Unexpected IOException with stream: may 11, 2024 5:14:22 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 124
+
+
+# Created at 2024-05-11T17:14:25.117
+Unexpected IOException: 5,1,Tests.SubmitOrderTest,submitOrder(Tests.SubmitOrderTest),Purchase,null,null
+
+
+# Created at 2024-05-11T17:14:25.212
+Unexpected IOException: 8,1,Tests.SubmitOrderTest,submitOrder(Tests.SubmitOrderTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '4.16.1'\002C revision: '9b4c83354e'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [98607cf5888894af8e441fbb634eaa1d\002C findElement {using=id\002C value=userEmail}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d...\002C userDataDir: C:\005CUsers\005COscar\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:10742}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:10742/devtoo...\002C se:cdpVersion: 124.0.6367.119\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 98607cf5888894af8e441fbb634eaa1d,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '4.16.1'\002C revision: '9b4c83354e'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [98607cf5888894af8e441fbb634eaa1d\002C findElement {using=id\002C value=userEmail}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d...\002C userDataDir: C:\005CUsers\005COscar\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:10742}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:10742/devtoo...\002C se:cdpVersion: 124.0.6367.119\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 98607cf5888894af8e441fbb634eaa1d,SubmitOrderTest.submitOrder:42 \00BB NoSuchWindow no such window: target window al...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=124.0.6367.119)\000ABuild info: version: '4.16.1'\002C revision: '9b4c83354e'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.2'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [98607cf5888894af8e441fbb634eaa1d\002C findElement {using=id\002C value=userEmail}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 124.0.6367.119\002C chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d...\002C userDataDir: C:\005CUsers\005COscar\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:10742}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:10742/devtoo...\002C se:cdpVersion: 124.0.6367.119\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 98607cf5888894af8e441fbb634eaa1d\000A\0009at Tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:42)\000A
+
+
+# Created at 2024-05-11T17:14:28.243
+Unexpected IOException with stream: may 11, 2024 5:14:28 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 124
+
+
+# Created at 2024-05-11T17:14:32.436
+Unexpected IOException: 5,1,Tests.SubmitOrderTest,submitOrder(Tests.SubmitOrderTest),Purchase,null,null
+
+
+# Created at 2024-05-11T17:14:43.966
+Unexpected IOException: 6,1,Tests.SubmitOrderTest,submitOrder(Tests.SubmitOrderTest),null,null,null
+
+
+# Created at 2024-05-11T17:14:44.240
+Unexpected IOException: 5,1,Tests.SubmitOrderTest,OrderHistoryTest(Tests.SubmitOrderTest),Tests.SubmitOrderTest,null,null
+
+
+# Created at 2024-05-11T17:14:44.241
+Unexpected IOException: 9,1,Tests.SubmitOrderTest,OrderHistoryTest(Tests.SubmitOrderTest),null,Method Tests.SubmitOrderTest.OrderHistoryTest() on instance Tests.SubmitOrderTest@45018215 depends on not successfully finished methods \000A[Tests.SubmitOrderTest.submitOrder() on instance Tests.SubmitOrderTest@45018215],null
+
+
+# Created at 2024-05-11T17:14:44.520
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+
